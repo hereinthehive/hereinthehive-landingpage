@@ -1,3 +1,37 @@
-.App {
+/*
+Typography
+*/
+
+body {
+  line-height: 1.3;
+}
+
+.type-trafalgar {
+  font-size: 2rem;
+}
+
+.type-brevier {
+  font-size: .9rem;
+}
+
+
+/*
+Structure
+*/
+#root {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header, footer {
+  border: 1px dashed #ccc;
+}
+
+footer {
+  margin-top: 16px;
   text-align: center;
+}
+
+footer p {
+  line-height: 1;
 }
